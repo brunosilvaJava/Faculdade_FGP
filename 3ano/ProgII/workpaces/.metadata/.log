@@ -296,3 +296,63 @@ Contains: The project description file (.project) for 'RemoteSystemsTempFiles' i
 !MESSAGE Errors occurred while refreshing resources with the local file system.
 !SUBENTRY 2 org.eclipse.core.resources 4 567 2016-06-09 10:23:29.014
 !MESSAGE The project description file (.project) for 'RemoteSystemsTempFiles' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2016-06-09 10:43:25.413
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2016-06-09 10:43:25.413
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-06-09 10:43:25.413
+!MESSAGE Software being installed: SVNKit 1.7.14 Implementation (Optional) 5.0.0.I20150529-1700 (org.polarion.eclipse.team.svn.connector.svnkit17.feature.group 5.0.0.I20150529-1700)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-06-09 10:43:25.413
+!MESSAGE Missing requirement: Subversive SVN Connectors 5.0.2.I20151228-1700 (org.polarion.eclipse.team.svn.connector.feature.group 5.0.2.I20151228-1700) requires 'org.polarion.eclipse.team.svn.connector [5.0.2.I20151228-1700]' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-06-09 10:43:25.413
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-06-09 10:43:25.413
+!MESSAGE From: SVNKit 1.7.14 Implementation (Optional) 5.0.0.I20150529-1700 (org.polarion.eclipse.team.svn.connector.svnkit17.feature.group 5.0.0.I20150529-1700)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-06-09 10:43:25.413
+!MESSAGE To: org.polarion.eclipse.team.svn.connector.feature.group 0.0.0
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2016-06-09 10:43:25.468
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2016-06-09 10:43:25.468
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-06-09 10:43:25.468
+!MESSAGE Software being installed: SVNKit 1.7.14 Implementation (Optional) 5.0.0.I20150529-1700 (org.polarion.eclipse.team.svn.connector.svnkit17.feature.group 5.0.0.I20150529-1700)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-06-09 10:43:25.468
+!MESSAGE Missing requirement: Subversive SVN Connectors 5.0.2.I20151228-1700 (org.polarion.eclipse.team.svn.connector.feature.group 5.0.2.I20151228-1700) requires 'org.polarion.eclipse.team.svn.connector [5.0.2.I20151228-1700]' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-06-09 10:43:25.468
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-06-09 10:43:25.468
+!MESSAGE From: SVNKit 1.7.14 Implementation (Optional) 5.0.0.I20150529-1700 (org.polarion.eclipse.team.svn.connector.svnkit17.feature.group 5.0.0.I20150529-1700)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-06-09 10:43:25.468
+!MESSAGE To: org.polarion.eclipse.team.svn.connector.feature.group 0.0.0
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2016-06-09 10:43:25.480
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2016-06-09 10:43:25.480
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-06-09 10:43:25.480
+!MESSAGE Software being installed: SVNKit 1.7.14 Implementation (Optional) 5.0.0.I20150529-1700 (org.polarion.eclipse.team.svn.connector.svnkit17.feature.group 5.0.0.I20150529-1700)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-06-09 10:43:25.480
+!MESSAGE Missing requirement: Subversive SVN Connectors 5.0.2.I20151228-1700 (org.polarion.eclipse.team.svn.connector.feature.group 5.0.2.I20151228-1700) requires 'org.polarion.eclipse.team.svn.connector [5.0.2.I20151228-1700]' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-06-09 10:43:25.480
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-06-09 10:43:25.480
+!MESSAGE From: SVNKit 1.7.14 Implementation (Optional) 5.0.0.I20150529-1700 (org.polarion.eclipse.team.svn.connector.svnkit17.feature.group 5.0.0.I20150529-1700)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-06-09 10:43:25.480
+!MESSAGE To: org.polarion.eclipse.team.svn.connector.feature.group 0.0.0
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2016-06-09 10:43:25.481
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2016-06-09 10:43:25.481
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-06-09 10:43:25.481
+!MESSAGE Software being installed: SVNKit 1.7.14 Implementation (Optional) 5.0.0.I20150529-1700 (org.polarion.eclipse.team.svn.connector.svnkit17.feature.group 5.0.0.I20150529-1700)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-06-09 10:43:25.481
+!MESSAGE Missing requirement: Subversive SVN Connectors 5.0.2.I20151228-1700 (org.polarion.eclipse.team.svn.connector.feature.group 5.0.2.I20151228-1700) requires 'org.polarion.eclipse.team.svn.connector [5.0.2.I20151228-1700]' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-06-09 10:43:25.481
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-06-09 10:43:25.481
+!MESSAGE From: SVNKit 1.7.14 Implementation (Optional) 5.0.0.I20150529-1700 (org.polarion.eclipse.team.svn.connector.svnkit17.feature.group 5.0.0.I20150529-1700)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-06-09 10:43:25.481
+!MESSAGE To: org.polarion.eclipse.team.svn.connector.feature.group 0.0.0
