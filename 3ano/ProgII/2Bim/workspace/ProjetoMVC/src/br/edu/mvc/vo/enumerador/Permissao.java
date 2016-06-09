@@ -4,8 +4,7 @@ package br.edu.mvc.vo.enumerador;
  * Este enum é responsável por armazenar os tipos de permissões possíveis no sistema, 
  * além dos métodos referentes às estas permissões. 
  * 
- * @author bruno.silva
- *
+ * @author bruno.silva *
  */
 public enum Permissao {
 	
