@@ -1,4 +1,4 @@
-<h3> Arquivos e Projetos Realizados na Faculdade </h3>
+<h3>Arquivos e Projetos Realizados na Faculdade</h3>
 
 <h4>Principais Projetos:</h4>
 
