@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+	<display-name>TrabalhoMVC</display-name>
+	
+	
+	<!-- Página default, caso não seja informado a página na URL, esta página é acessada automaticamente --> 
+	<welcome-file-list>
+		<welcome-file>pages/home.jsp</welcome-file>
+	</welcome-file-list>
+
+	<!-- 
+			*** Declaração e Mapeamento de Servlets 
+	-->
+	
+		<!-- Servlet responsável por receber as requisições da tela de login -->
+		<servlet>
+			
+			<servlet-name>LoginController</servlet-name>
+			<servlet-class>br.edu.mvc.controller.LoginController</servlet-class>
+			<!-- 
+				*** load-on-startup
+				valor positivo -> servlet carregada junto da Aplicação(Sistema) na ordem crescente (cada servlet pode ter seu número)
+				valor não positivo -> servlet carregada na primeira requisição feita à ela
+				Para testar, retire o comentário abaixo, rode o sistema e veja no Console o ciclo de vida
+			--> 
+			<!-- <load-on-startup>1</load-on-startup> --> 
+			
+		</servlet>
+		
+		<!-- A Servlet LoginController irá atender as requisições enviadas para URN '/login' -->
+		<servlet-mapping>
+			<servlet-name>LoginController</servlet-name>
+			<url-pattern>/login</url-pattern>
+		</servlet-mapping>
+	
+	<!-- 
+			*** Declaração e Mapeamento de Filtros 
+	-->
+	
+		<!-- Filtro responsável por verificar se o usuário está ativo -->
+		<filter>
+			<filter-name>LoginFiltro</filter-name>
+			<filter-class>br.edu.mvc.filtro.LoginFiltro</filter-class>
+		</filter>
+		
+		<!-- Qualquer requisição que tentar acessar o diretório '/pages/*' irá passar primeiro pelo filtro antes de cair na Servlet -->
+		<filter-mapping>
+			<filter-name>LoginFiltro</filter-name>
+			<url-pattern>/pages/*</url-pattern>
+		</filter-mapping>
+	
+	<!-- 
+			*** Páginas Erro 
+	-->
+		
+		<error-page>
+			<error-code>404</error-code>
+			<location>/error/error404.jsp</location>
+		</error-page>
+		<error-page>
+			<exception-type>java.lang.Exception</exception-type>
+			<location>/error/erroInterno.jsp</location>
+		</error-page>
+	
+
+</web-app>
