@@ -9,8 +9,9 @@ package br.edu.mvc.vo.enumerador;
 public enum Permissao {
 	
 	/** Permissão de Administrador do sistema, valor = 'admin' */
-	ADMIN(Perm.ADMINISTRADOR);
+	ADMIN(Permissao.ADMINISTRADOR);
 	
+	private static final String ADMINISTRADOR = "admin";
 	private String permissao;
 	
 	private Permissao(String permissao) {		
@@ -26,7 +27,7 @@ public enum Permissao {
 				
 		switch (permissao) {
 		
-		case Perm.ADMINISTRADOR:
+		case Permissao.ADMINISTRADOR:
 			return ADMIN;
 				
 		default:
@@ -41,16 +42,6 @@ public enum Permissao {
 	 */
 	public String getPermissao() {
 		return permissao;
-	}
-	
-	/**
-	 * Classe interna Perm - feita exclusivamente para conter cosntantes que representem os valores dos enums de Permissao
-	 * @author bruno.silva
-	 *
-	 */
-	private static class Perm{
-		/** Constante que representa o valor do enum ADMIN - valor = 'admin' */
-		private static final String ADMINISTRADOR = "admin";
 	}
 
 }
