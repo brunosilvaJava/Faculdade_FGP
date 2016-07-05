@@ -3,6 +3,7 @@
 ## CantinaFgp 
 Software para controle de venda, produção dos salgados e estoque.
 
+* Swing
 * Arquitetura MVC
 * Design Patterns: Factory - Singleton - Service/Impl
 * Enumeradores
